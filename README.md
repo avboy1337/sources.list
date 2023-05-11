@@ -56,44 +56,23 @@ deb http://security.ubuntu.com/ubuntu lunar-security multiverse
 ```
 
 
-## Ubuntu 22.04.1
-
-```txt
-deb https://mirrors.aliyun.com/ubuntu/ jammy main restricted universe multiverse
-deb-src https://mirrors.aliyun.com/ubuntu/ jammy main restricted universe multiverse
-
-deb https://mirrors.aliyun.com/ubuntu/ jammy-security main restricted universe multiverse
-deb-src https://mirrors.aliyun.com/ubuntu/ jammy-security main restricted universe multiverse
-
-deb https://mirrors.aliyun.com/ubuntu/ jammy-updates main restricted universe multiverse
-deb-src https://mirrors.aliyun.com/ubuntu/ jammy-updates main restricted universe multiverse
-
-deb https://mirrors.aliyun.com/ubuntu/ jammy-proposed main restricted universe multiverse
-deb-src https://mirrors.aliyun.com/ubuntu/ jammy-proposed main restricted universe multiverse
-
-deb https://mirrors.aliyun.com/ubuntu/ jammy-backports main restricted universe multiverse
-deb-src https://mirrors.aliyun.com/ubuntu/ jammy-backports main restricted universe multiverse
-
-
-```
-
 ## Ubuntu 22.04
 
 ```txt
-deb http://mirrors.aliyun.com/ubuntu/ jammy main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ jammy main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu/ jammy main restricted universe multiverse
+# deb-src http://archive.ubuntu.com/ubuntu/ jammy main restricted universe multiverse
 
-deb http://mirrors.aliyun.com/ubuntu/ jammy-security main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ jammy-security main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu/ jammy-updates main restricted universe multiverse
+# deb-src http://archive.ubuntu.com/ubuntu/ jammy-updates main restricted universe multiverse
 
-deb http://mirrors.aliyun.com/ubuntu/ jammy-updates main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ jammy-updates main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse
+# deb-src http://archive.ubuntu.com/ubuntu/ jammy-security main restricted universe multiverse
 
-# deb http://mirrors.aliyun.com/ubuntu/ jammy-proposed main restricted universe multiverse
-# deb-src http://mirrors.aliyun.com/ubuntu/ jammy-proposed main restricted universe multiverse
+deb http://archive.ubuntu.com/ubuntu/ jammy-backports main restricted universe multiverse
+# deb-src http://archive.ubuntu.com/ubuntu/ jammy-backports main restricted universe multiverse
 
-deb http://mirrors.aliyun.com/ubuntu/ jammy-backports main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ jammy-backports main restricted universe multiverse
+deb http://archive.canonical.com/ubuntu/ jammy partner
+# deb-src http://archive.canonical.com/ubuntu/ jammy partner
 ```
 
 ## Ubuntu 21.10
